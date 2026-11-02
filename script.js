@@ -97,8 +97,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const dataLine1 = {
     labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4', 'Día 5'], // Etiquetas de los días], // Etiquetas de los días
     datasets: [{
-      label: 'Km recorridos en Semana 11',
-      data: [9, 10, 10, 9, 10], // Datos de los km recorridos en cada día
+      label: 'Km recorridos en Semana 13',
+      data: [6, 10, 12, 11, 15], // Datos de los km recorridos en cada día
       borderColor: 'rgba(45, 74, 62, 1)',
       backgroundColor: 'rgba(45, 74, 62, 0.16)',
       fill: true
@@ -106,10 +106,10 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const dataLine2 = {
-    labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4'], // Etiquetas de los días
+    labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4', 'Día 5'], // Etiquetas de los días
     datasets: [{
-      label: 'Total Km recorridos en Semana 12',
-      data: [4, 10, 4, 17],// Datos de los km recorridos en cada día
+      label: 'Total Km recorridos en Semana 14',
+      data: [13, 12, 9, 12, 21],// Datos de los km recorridos en cada día
       borderColor: 'rgba(45, 78, 199, 1)',
       backgroundColor: 'rgba(45, 78, 199, 0.14)',
       fill: true
